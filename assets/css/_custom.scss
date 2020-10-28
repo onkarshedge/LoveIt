@@ -2,3 +2,37 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+#header-desktop .header-wrapper .header-title {
+  font-size: 1rem;
+}
+
+header .header-title-post {
+  padding-left: 0;
+}
+
+//.home[posts] .home-avatar img {
+//  width: 12rem;
+//}
+
+.home .home-profile .home-avatar img {
+  width: 15rem;
+}
+
+.logo_cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1rem;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  background: #fe5186;
+  //margin-left: 5px;
+  border-radius: 1px;
+  animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
